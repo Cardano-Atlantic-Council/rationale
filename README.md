@@ -1,2 +1,2 @@
-# rationale
-Rationale files for Cardano Atlantic Council votes
+# Cardano Atlantic Council Rationale Files
+
