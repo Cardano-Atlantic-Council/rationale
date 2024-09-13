@@ -11,6 +11,7 @@ gov_action1zhuz5djmmmjg8f9s8pe6grfc98xg3szglums8cgm6qwancp4eytqqmpu0pr **[1]**
 | Constitutional   | 5     |
 | Unconstitutional | 0     |
 | Abstain          | 1     |
+| Did Not Vote     | 0     |
 
 ## Supporting Rationale
 
