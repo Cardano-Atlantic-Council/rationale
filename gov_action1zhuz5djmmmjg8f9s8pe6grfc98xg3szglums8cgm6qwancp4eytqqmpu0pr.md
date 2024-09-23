@@ -17,8 +17,8 @@ gov_action1zhuz5djmmmjg8f9s8pe6grfc98xg3szglums8cgm6qwancp4eytqqmpu0pr **[1]**
 
 * The interim constitution does not place restrictions, procedures, or
   requirements on the naming of hard forks. The interim constitution does
-  specify that: “utilizes wherever possible and beneficial blockchain technology
-  in the governance process”. Ergo, proposing the naming of a hard fork via an
+  specify that: 'utilizes wherever possible and beneficial blockchain technology
+  in the governance process'. Ergo, proposing the naming of a hard fork via an
   _Info Action_ is constitutional. **[2: Preamble, Paragraph 3]**
 
 ## Dissenting Rationale
