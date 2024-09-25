@@ -40,6 +40,6 @@ gov_action1t87n2vjnavthuggyarerafxx8c7n9mu4c7r96qlfp5uggsjdc8dsqymg588 **[1]**
 ## References
 
 1. CardanoScan Governance
-   Explorer, [https://cardanoscan.io/govAction/gov_action1zhuz5djmmmjg8f9s8pe6grfc98xg3szglums8cgm6qwancp4eytqqmpu0pr](https://cardanoscan.io/govAction/gov_action1zhuz5djmmmjg8f9s8pe6grfc98xg3szglums8cgm6qwancp4eytqqmpu0pr)
+   Explorer, [https://cardanoscan.io/govAction/gov_action1t87n2vjnavthuggyarerafxx8c7n9mu4c7r96qlfp5uggsjdc8dsqymg588](https://cardanoscan.io/govAction/gov_action1t87n2vjnavthuggyarerafxx8c7n9mu4c7r96qlfp5uggsjdc8dsqymg588)
 2. Interim
    Constitution, [https://constitution.gov.tools](https://constitution.gov.tools)
