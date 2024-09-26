@@ -34,7 +34,7 @@ gov_action1t87n2vjnavthuggyarerafxx8c7n9mu4c7r96qlfp5uggsjdc8dsqymg588 **[1]**
   explicitly desires no change or impact to the governance of Cardano either
   on-chain or off-chain.
 * Voting `Constitutional` on this largely positive proposal could be used as a
-  precedent weapon in the future to argue for an "endorsing" vote on a proposal
+  precedent weapon in the future to argue for an endorsing vote on a proposal
   that takes a more critical and negative, potentially libelous, tone.
 
 ## References
