@@ -19,14 +19,23 @@ We find this governance action, as proposed, to be unconstitutional. Due to an
 unforeseen issue with the submission of the governance action **[2]** this
 action does not propose any changes to the network parameters which is in direct
 conflict to its stated goal of modifying Plutus v3 Cost Models. This is in
-conflict with Article III, Section 6, Paragraph 2 of the Interim Cardano
-Constitution which states:
+conflict with Article III, Section 6, Paragraph 2 and 3 **[3]** of the Interim
+Cardano Constitution which state:
 
-> Any governance action proposal reaching the on-chain governance stage shall
+> **Any governance action proposal reaching the on-chain governance stage shall
 > be identical in content as to the final off-chain version of such
-> governance action proposal.
+> governance action proposal.**
 >
-> — Interim Cardano Constitution, Article III, Section 6, Paragraph 2
+> ...
+>
+> Hard Fork Initiation and Protocol Parameter Change governance actions should
+> undergo sufficient technical review and scrutiny as mandated by the Cardano
+> Blockchain Guardrails to ensure that the governance action does not endanger the
+> security, functionality or performance of the Cardano Blockchain. **Governance
+> actions should address their expected impact on the Cardano Blockchain**
+> ecosystem.
+>
+> — Interim Cardano Constitution, Article III, Section 6, Paragraph 2 & 3
 
 Because the published action does not match the circulated and socialized intent
 or outcomes in the off-chain version, we must find this proposal to be
