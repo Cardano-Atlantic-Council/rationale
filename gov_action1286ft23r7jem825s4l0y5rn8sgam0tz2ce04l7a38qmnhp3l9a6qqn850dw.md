@@ -52,11 +52,10 @@ N/A
   a mutable (HTTPS) link was provided in the governance action, the metadata
   file could be restored at a later date. This situation could create
   unnecessary uncertainty and doubt.
-* It doesn't change any parameters, perhaps it should be ignored or considered
-  Constitutional? Given that all proposed protocol parameter changes must build
-  on the previous state (hash) of governance, seemingly innocuous proposals such
-  as this can cause unnecessary confusion and conflicts to arise with downstream
-  proposals.
+* If it doesn't change any parameters, should we ignore it, abstain, or consider
+  it Constitutional? All protocol parameter changes must build on the previous
+  state (hash) of governance, seemingly innocuous proposals such as this can
+  cause unnecessary confusion and conflicts to arise with downstream proposals.
 
 ## References
 
