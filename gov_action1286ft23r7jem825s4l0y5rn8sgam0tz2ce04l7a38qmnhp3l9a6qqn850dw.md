@@ -28,10 +28,10 @@ Cardano Constitution which state:
 >
 > Hard Fork Initiation and Protocol Parameter Change governance actions should
 > undergo sufficient technical review and scrutiny as mandated by the Cardano
-> Blockchain Guardrails to ensure that the governance action does not endanger the
-> security, functionality or performance of the Cardano Blockchain. **Governance
-> actions should address their expected impact on the Cardano Blockchain
-> ecosystem.**
+> Blockchain Guardrails to ensure that the governance action does not endanger
+> the security, functionality or performance of the Cardano Blockchain.
+> **Governance actions should address their expected impact on the Cardano
+> Blockchain ecosystem.**
 >
 > — Interim Cardano Constitution, Article III, Section 6, Paragraph 2 & 3
 
@@ -47,11 +47,11 @@ N/A
 
 * The authors of the governance action changed the file contents of the proposal
   metadata after realizing their error. This means that the published file does
-  not hash and match that published on-chain via the anchor information (Article
-  III, Section 6, Paragraph 1). However, given that a mutable
-  (HTTPS) link was provided in the governance action, the metadata file could be
-  restored at a later date. This situation could create unnecessary uncertainty
-  and doubt.
+  not currently hash and match that published on-chain via the anchor
+  information **[3: Article III, Section 6, Paragraph 1]**. However, given that
+  a mutable (HTTPS) link was provided in the governance action, the metadata
+  file could be restored at a later date. This situation could create
+  unnecessary uncertainty and doubt.
 * It doesn't change any parameters, perhaps it should be ignored or considered
   Constitutional? Given that all proposed protocol parameter changes must build
   on the previous state (hash) of governance, seemingly innocuous proposals such
