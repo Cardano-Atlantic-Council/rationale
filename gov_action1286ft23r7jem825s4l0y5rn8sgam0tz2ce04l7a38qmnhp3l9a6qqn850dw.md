@@ -26,14 +26,12 @@ Cardano Constitution which state:
 > be identical in content as to the final off-chain version of such
 > governance action proposal.**
 >
-> ...
->
 > Hard Fork Initiation and Protocol Parameter Change governance actions should
 > undergo sufficient technical review and scrutiny as mandated by the Cardano
 > Blockchain Guardrails to ensure that the governance action does not endanger the
 > security, functionality or performance of the Cardano Blockchain. **Governance
-> actions should address their expected impact on the Cardano Blockchain**
-> ecosystem.
+> actions should address their expected impact on the Cardano Blockchain
+> ecosystem.**
 >
 > — Interim Cardano Constitution, Article III, Section 6, Paragraph 2 & 3
 
