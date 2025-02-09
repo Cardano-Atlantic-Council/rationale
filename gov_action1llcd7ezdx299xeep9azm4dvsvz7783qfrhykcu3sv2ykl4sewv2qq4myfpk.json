@@ -1,3 +1,4 @@
+
 {
   "@context": {
     "@language": "en-us",
@@ -75,5 +76,14 @@
       }
     ]
   },
-  "authors": []
+  "authors": [
+    {
+      "name": "Cardano Atlantic Council",
+      "witness": {
+        "witnessAlgorithm": "ed25519",
+        "publicKey": "91333b40b6dbb4c47e5f30fde21b7d5b38dcad87d27c621b8b7fe61f108c1b0a",
+        "signature": "ac74fd6aeaa8c7a395220707b4c48ba4fec78d6fb41e88871bfade750ec599e8781d63546f1b5d19de082fafecb271ed7d784b043ada7954f279e97e668fba09"
+      }
+    }
+  ]
 }
