@@ -1,0 +1,109 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP136": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0136/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP136:body",
+      "@context": {
+        "references": {
+          "@id": "CIP136:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "relevantArticles": "CIP136:references"
+          }
+        },
+        "summary": "CIP136:summary",
+        "rationaleStatement": "CIP136:rationaleStatement",
+        "precedentDiscussion": "CIP136:precedentDiscussion",
+        "counterargumentDiscussion": "CIP136:counterargumentDiscussion",
+        "conclusion": "CIP136:conclusion",
+        "internalVote": {
+          "@id": "CIP136:internalVote",
+          "@context": {
+            "constitutional": "CIP136:constitutional",
+            "unconstitutional": "CIP136:unconstitutional",
+            "abstain": "CIP136:abstain",
+            "didNotVote": "CIP136:didNotVote",
+            "againstVote": "CIP136:againstVote"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "summary": "Per the requirements of the Interim Constitution, the Cardano Atlantic Council has performed rigorous review and scrutiny of the proposed Plomin Hard Fork Action and subsequently find it to be Constitutional.",
+    "rationaleStatement": "# Plomin Hard Fork Rationale\n\nArticle III, Section 6 of the Interim Constitution states:\n\n> Hard Fork Initiation and Protocol Parameter Change governance actions should undergo sufficient technical review and scrutiny as mandated by the Cardano Blockchain Guardrails to ensure that the governance action does not endanger the security, functionality or performance of the Cardano Blockchain. Governance actions should address their expected impact on the Cardano Blockchain ecosystem.\n>\n> — Cardano Interim Constitution, Article III, Section 6\n\nGiven this, the Cardano Atlantic Council have performed the following observations as part of our *technical review and scrutiny* prior to voting the Plomin Hard Fork as Constitutional.\n\n## Criteria\n\n- Greater than 85% of Stake Pool Operators (SPOs), by stake weight and block production, have upgraded to a version of node software capable of transitioning through the hard fork.\n  - Appendix I, Section 4, HARDFORK-04\n- A sufficient number of SPOs have upgraded to node version 10.1.4\n  - Due to a potentially critical performance vulnerability discovered in earlier node versions, monitoring SPO upgrades to this latest, secure version of the node software addresses the **security and performance** requirements of Article III, Section 6.\n  - Article III, Section 6\n- Ecosystem Tooling and Applications have indicated readiness to support the hard fork.\n  - By reviewing Tooling and Application readiness we have ensured that the hard fork and this governance action *address their expected impact on the Cardano Blockchain ecosystem.*\n- A majority of centralized exchanges, by managed liquidity, have indicated their readiness for the hard fork.\n  - Exchanges are critical ecosystem participants. Ensuring their readiness directly impacts user accessibility and liquidity, aligning with the requirement to evaluate the action's impact on the blockchain ecosystem.",
+    "internalVote": {
+      "constitutional": 6,
+      "unconstitutional": 0,
+      "abstain": 0,
+      "didNotVote": 0,
+      "againstVote": 0
+    },
+    "references": [
+      {
+        "@type": "Other",
+        "uri": "https://pooltool.io/networkhealth",
+        "label": "PoolTool Network Health Page"
+      },
+      {
+        "@type": "Other",
+        "label": "Cardano Node v10.1.4 Release Notes",
+        "uri": "https://github.com/IntersectMBO/cardano-node/releases/tag/10.1.4"
+      },
+      {
+        "@type": "Other",
+        "label": "Intersect Plomin Hard Fork Readiness Page",
+        "uri": "https://cardanoupgrades.docs.intersectmbo.org/plomin-upgrade/chang-upgrade-2-readiness"
+      },
+      {
+        "@type": "Other",
+        "label": "CardanoScan Plomin Hard Fork Readiness Page",
+        "uri": "https://cardanoscan.io/changreadiness"
+      },
+      {
+        "@type": "relevantArticles",
+        "uri": "https://github.com/IntersectMBO/interim-constitution/blob/75155526ce850118898bd5eacf460f5d68ceb083/cardano-constitution-0.txt#L212-L217",
+        "label": "Interim Constitution, Article III, Section 6"
+      },
+      {
+        "@type": "relevantArticles",
+        "label": "Interim Constitution, Appendix I,  Section 4",
+        "uri": "https://github.com/IntersectMBO/interim-constitution/blob/75155526ce850118898bd5eacf460f5d68ceb083/cardano-constitution-0.txt#L1527-L1529"
+      }
+    ],
+    "counterargumentDiscussion": "N/A"
+  },
+  "authors": [
+    {
+      "name": "Cardano Atlantic Council",
+      "witness": {
+        "witnessAlgorithm": "ed25519",
+        "publicKey": "91333b40b6dbb4c47e5f30fde21b7d5b38dcad87d27c621b8b7fe61f108c1b0a",
+        "signature": "b8cf3552a9b3260c0da43778396bb81bb4a5eec52f821c47a59bc757c7b38b6532e8584ea92119956da5962c91bd711ccf40e1f9b4d21cc89ba07e1434f64a0c"
+      }
+    }
+  ]
+}

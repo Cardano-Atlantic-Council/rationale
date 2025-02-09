@@ -1,0 +1,89 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP136": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0136/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP136:body",
+      "@context": {
+        "references": {
+          "@id": "CIP136:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "relevantArticles": "CIP136:references"
+          }
+        },
+        "summary": "CIP136:summary",
+        "rationaleStatement": "CIP136:rationaleStatement",
+        "precedentDiscussion": "CIP136:precedentDiscussion",
+        "counterargumentDiscussion": "CIP136:counterargumentDiscussion",
+        "conclusion": "CIP136:conclusion",
+        "internalVote": {
+          "@id": "CIP136:internalVote",
+          "@context": {
+            "constitutional": "CIP136:constitutional",
+            "unconstitutional": "CIP136:unconstitutional",
+            "abstain": "CIP136:abstain",
+            "didNotVote": "CIP136:didNotVote",
+            "againstVote": "CIP136:againstVote"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "summary": "We find the proposed Constitution acceptable pursuant to ratification by the delegated representatives body.",
+    "rationaleStatement": "Appendix II of the Cardano Interim Constitution clearly laid a framework for the process of how the Cardano community would transition through the Chang Hard Fork, into the bootstrap or interim phase of governance, and then graduate to a \"final\" Constitution after a community consultation, drafting, and ratification process.\n\nThis process was followed throughout the summer and fall of 2024 through dozens of workshops held worldwide, culminating in the Constitutional Conventions in Buenos Aires, Argentina and Nairobi, Kenya in December of 2024. There, 95% of the Constitutional delegates signaled via formal vote their support for the proposed Constitution. At the time of the delegate ratification a hash was created of that version of the document. That hash is the same as the proposed document which has been publicly available since December of 2024 via GitHub.\n\nWe find that this process was open to contribution and direction by the community \\[Article I, Section 2\\] and the decision is now, following the Plomin Hard Fork, in the hands of the community to adopt or reject as they see fit through themselves or their now empowered Delegated Representatives (DReps) \\[Article II, Section 2\\].",
+    "precedentDiscussion": "We find that the pageantry and spectacle of the 60+ global, in-person workshops and the concurrently live streamed Conventions in Kenya and Argentina were important to the momentous and historic nature of this governance action.\n\nHowever, we would advise that this was above-and-beyond the necessity for community involvement in the process and caution against establishing too much precedent from the events themselves and instead focusing on the outcomes (the document).\n\nThe community should always feel empowered to meet, discuss, and propose amendments and changes to this and future Constitutions with or without in person meetings and spectacle, particularly if this is difficult or impossible due to financial, legal, or other reasons.",
+    "counterargumentDiscussion": "N/A",
+    "internalVote": {
+      "constitutional": 6,
+      "unconstitutional": 0,
+      "abstain": 0
+    },
+    "references": [
+      {
+        "@type": "relevantArticles",
+        "label": "Cardano Interim Constitution",
+        "uri": "https://constitution.gov.tools/en/interim-constitution"
+      },
+      {
+        "@type": "relevantArticles",
+        "label": "Proposed Constitution",
+        "uri": "https://github.com/IntersectMBO/draft-constitution/tree/d546359ce6e850aa07687be2483b8e6dc3b9b508/2024-12-05"
+      }
+    ],
+    "govActionId": "gov_action133jnaewfsq8x6v08ndd87l2yqryp63r30t2dkceacxx5cply5n7sqzlcyqf"
+  },
+  "authors": [
+    {
+      "name": "Cardano Atlantic Council",
+      "witness": {
+        "witnessAlgorithm": "ed25519",
+        "publicKey": "91333b40b6dbb4c47e5f30fde21b7d5b38dcad87d27c621b8b7fe61f108c1b0a",
+        "signature": "d50e98b9117864d0e3e4ecae93c8ba04d5e4e73ba36dee0958f32a0de1224dd146509e377694d05bb5dadc8dc6b46350290b2331bc623f338257f68547bf2203"
+      }
+    }
+  ]
+}
