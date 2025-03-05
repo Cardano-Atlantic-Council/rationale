@@ -88,11 +88,6 @@ However, in the event that it is passed, this dissent statement serves as a
 formal record of opposition, highlighting the procedural deficiencies and
 potential risks that the decision entails.
 
-
-> See
-> [Dissenting Rationale](gov_action1js2s9v92zpxg2rge0y3jt9zy626he2m67x9kx9phw4r942kvsn6sqfym0d7.unconstitutional.md)
-> for more details
-
 ## Considerations
 
 - As mentioned in the Intersect Parameter Committee response to this protocol
@@ -112,19 +107,17 @@ potential risks that the decision entails.
 
 1. ADASTAT Governance
    Explorer, [https://adastat.net/governances/941502b0aa104c850d197923259444d2b57cab7af18b63143775465aaacc84f500](https://adastat.net/governances/941502b0aa104c850d197923259444d2b57cab7af18b63143775465aaacc84f500)
-2. Cardano Atlantic Council, Gov Action #9, Dissenting
-   Rationale, [gov_action1js2s9v92zpxg2rge0y3jt9zy626he2m67x9kx9phw4r942kvsn6sqfym0d7.unconstitutional.md](gov_action1js2s9v92zpxg2rge0y3jt9zy626he2m67x9kx9phw4r942kvsn6sqfym0d7.unconstitutional.md)
-3. Cardano Constitution, Article III, Various
+2. Cardano Constitution, Article III, Various
    Sections, [https://github.com/IntersectMBO/draft-constitution/blob/9c811a22c7244c064fdcfd89e9ef8b5f2bc2ac37/2024-12-05/cardano-constitution-1.txt#L133-L209](https://github.com/IntersectMBO/draft-constitution/blob/9c811a22c7244c064fdcfd89e9ef8b5f2bc2ac37/2024-12-05/cardano-constitution-1.txt#L133-L209)
-4. Cardano Constitution, Article IV, Section
+3. Cardano Constitution, Article IV, Section
    1, [https://github.com/IntersectMBO/draft-constitution/blob/9c811a22c7244c064fdcfd89e9ef8b5f2bc2ac37/2024-12-05/cardano-constitution-1.txt#L213-L233](https://github.com/IntersectMBO/draft-constitution/blob/9c811a22c7244c064fdcfd89e9ef8b5f2bc2ac37/2024-12-05/cardano-constitution-1.txt#L213-L233)
-5. Cardano Constitution, Article VII, Section
+4. Cardano Constitution, Article VII, Section
    4, [https://github.com/IntersectMBO/draft-constitution/blob/9c811a22c7244c064fdcfd89e9ef8b5f2bc2ac37/2024-12-05/cardano-constitution-1.txt#L399-L427](https://github.com/IntersectMBO/draft-constitution/blob/9c811a22c7244c064fdcfd89e9ef8b5f2bc2ac37/2024-12-05/cardano-constitution-1.txt#L399-L427)
-6. Cardano Constitution, Appendix I, Section
+5. Cardano Constitution, Appendix I, Section
    2.2, [https://github.com/IntersectMBO/draft-constitution/blob/9c811a22c7244c064fdcfd89e9ef8b5f2bc2ac37/2024-12-05/cardano-constitution-1.txt#L794](https://github.com/IntersectMBO/draft-constitution/blob/9c811a22c7244c064fdcfd89e9ef8b5f2bc2ac37/2024-12-05/cardano-constitution-1.txt#L794)
-7. Cardano Constitution, Appendix I, Section
+6. Cardano Constitution, Appendix I, Section
    2.6, [https://github.com/IntersectMBO/draft-constitution/blob/9c811a22c7244c064fdcfd89e9ef8b5f2bc2ac37/2024-12-05/cardano-constitution-1.txt#L1688-L1714](https://github.com/IntersectMBO/draft-constitution/blob/9c811a22c7244c064fdcfd89e9ef8b5f2bc2ac37/2024-12-05/cardano-constitution-1.txt#L1688-L1714)
-8. Intersect Parameters Committee Response to Governance
+7. Intersect Parameters Committee Response to Governance
    Action, [https://forum.cardano.org/t/parameter-committee-response-to-gov-action-to-decrease-treasury-cut-to-10/143510](https://forum.cardano.org/t/parameter-committee-response-to-gov-action-to-decrease-treasury-cut-to-10/143510)
 
 [Article III, Section 2]: https://github.com/IntersectMBO/draft-constitution/blob/9c811a22c7244c064fdcfd89e9ef8b5f2bc2ac37/2024-12-05/cardano-constitution-1.txt#L147-L152
