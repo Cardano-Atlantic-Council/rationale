@@ -54,6 +54,9 @@ VII, Section 4*).
 Without supporting evidence, data, or prior discussion, its validity under the
 Cardano Constitution is questionable and should be deemed unconstitutional.
 
+> See [Dissenting Rationale](gov_action1js2s9v92zpxg2rge0y3jt9zy626he2m67x9kx9phw4r942kvsn6sqfym0d7.unconstitutional.md)
+> for more details
+
 ## Considerations
 
 - As mentioned in the Intersect Parameter Committee response to this protocol
