@@ -1,0 +1,89 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP136": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0136/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP136:body",
+      "@context": {
+        "references": {
+          "@id": "CIP136:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "relevantArticles": "CIP136:references"
+          }
+        },
+        "summary": "CIP136:summary",
+        "rationaleStatement": "CIP136:rationaleStatement",
+        "precedentDiscussion": "CIP136:precedentDiscussion",
+        "counterargumentDiscussion": "CIP136:counterargumentDiscussion",
+        "conclusion": "CIP136:conclusion",
+        "internalVote": {
+          "@id": "CIP136:internalVote",
+          "@context": {
+            "constitutional": "CIP136:constitutional",
+            "unconstitutional": "CIP136:unconstitutional",
+            "abstain": "CIP136:abstain",
+            "didNotVote": "CIP136:didNotVote",
+            "againstVote": "CIP136:againstVote"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "govActionId": "gov_action10ueqgzwenxr39le68n0se9peu92r7gm2846xwehh3u0ahc0qd0uqqyljxu5",
+    "summary": "This action is deemed Unconstitutional by the Cardano Atlantic Council due to the use of language proposing to modify the ratification thresholds dictated by the Cardano Constitution.",
+    "rationaleStatement": "The published rationale for this governance action states (emphasis ours):\n\n> In accordance with the Constitution, this **action shall be considered ratified with a threshold of greater than 67%** of the delegated ada to DReps voting in favor.\n\nthe threshold for ratification of a Net Change Limit (NCL) governance action is defined in **Appendix I, Section 3, TREASURY-O1a** as follows:\n\n> TREASURY-01a (x) A net change limit for the Cardano treasury's balance per period of time **must** be agreed by the DReps via an on-chain governance action with a threshold of greater than 50% of the active voting stake\n\nThe use of the language \"**shall be considered ratified**\" indicates an intent by the author(s) of this action to subvert the limit specified by the Constitutional Guardrails and thus makes this action *Unconstitutional*.",
+    "precedentDiscussion": "- The authors used a mutable (changeable) data source for their rationale publication which, at least briefly, led to some issues of the hash of the file not matching what was publicly published. All authors of future actions are encouraged to use immutable (hashed) data sources to prevent this.\n- The fact that the authors attempted to set a threshold that was \"above and beyond\" the limit specified by the Constitution is admirable, however, modifying the limits put in place by the Constitution without following the correct procedure for modifying the Constitution is dangerous to allow, even with the best of intentions.\n- The Net Change Limit as defined by this proposal's rationale **does not** have clear start and end dates or times, leaving its applicable period open to interpretation by various groups during subsequent budgets and withdrawals.\n- The Net Change Limit as defined by this proposal's rationale **does not** clearly define whether the change limit applies to the delta (difference) between starting balance and ending balance (i.e. whether or not revenue flowing into the treasury offsets spend, ostensibly making the limit of this proposal approximately 550M for the calendar year 2025) or whether it is merely a hard cap on the total amount of withdrawals allowed from the Treasury within a calendar year.",
+    "counterargumentDiscussion": "N/A",
+    "internalVote": {
+      "constitutional": 0,
+      "unconstitutional": 6,
+      "abstain": 0
+    },
+    "references": [
+      {
+        "uri": "https://github.com/IntersectMBO/draft-constitution/blob/9c811a22c7244c064fdcfd89e9ef8b5f2bc2ac37/2024-12-05/cardano-constitution-1.txt#L1731-L1733",
+        "label": "Appendix I, Section 3, TREASURY-O1a",
+        "@type": "relevantArticles"
+      },
+      {
+        "@type": "Other",
+        "label": "Immutable Proposal Rationale",
+        "uri": "ipfs://QmXWAeFQensLLtu4miQqMUxVrYniYtybsVAaioQQVit13r"
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Cardano Atlantic Council",
+      "witness": {
+        "witnessAlgorithm": "ed25519",
+        "publicKey": "91333b40b6dbb4c47e5f30fde21b7d5b38dcad87d27c621b8b7fe61f108c1b0a",
+        "signature": "4a60facb5a0f3e1759d6130ba6284eabed45f3dfeebcb477d2b5fe52964dd6775c942d95997d8ead6c190307944e383dca50a0f16383232e296ff648d485a506"
+      }
+    }
+  ]
+}

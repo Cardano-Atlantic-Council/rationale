@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP136": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0136/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP136:body",
+      "@context": {
+        "references": {
+          "@id": "CIP136:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "relevantArticles": "CIP136:references"
+          }
+        },
+        "summary": "CIP136:summary",
+        "rationaleStatement": "CIP136:rationaleStatement",
+        "precedentDiscussion": "CIP136:precedentDiscussion",
+        "counterargumentDiscussion": "CIP136:counterargumentDiscussion",
+        "conclusion": "CIP136:conclusion",
+        "internalVote": {
+          "@id": "CIP136:internalVote",
+          "@context": {
+            "constitutional": "CIP136:constitutional",
+            "unconstitutional": "CIP136:unconstitutional",
+            "abstain": "CIP136:abstain",
+            "didNotVote": "CIP136:didNotVote",
+            "againstVote": "CIP136:againstVote"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "govActionId": "gov_action1nd3t833j7v5sz65k3tp9yyvztw60sjcjgcgjr37682s3m7frwrusqmd2k80",
+    "summary": "This governance action, as proposed, is Constitutional.",
+    "rationaleStatement": "This governance action proposing a Net Change Limit (NCL) for the Cardano ecosystem is Constitutional.",
+    "precedentDiscussion": "- The Net Change Limit as proposed by this governance action **does** define clear and precise start and end points, reducing ambiguity and interpretational uncertainty when measuring future budget and treasury withdrawal actions against this NCL.\n- The Net Change Limit as proposed by this governance action **does** clearly define that the Net Change Limit should be considered a cap on the total amount of Treasury Withdrawals during its enactment period, regardless of Treasury revenue during that time.\n- Should a scenario occur where this and the earlier proposed NCL Governance Action (gov_action10ueqgzwenxr39le68n0se9peu92r7gm2846xwehh3u0ahc0qd0uqqyljxu5) both pass and become ratified by DReps, this proposal would nullify the earlier proposal for both 2025 and 2026. The proposed 2025 NCL as presented in this action would be enforced and the 2026 NCL proposed by the earlier action would be invalidated and need to be submitted via a new and separate action.",
+    "counterargumentDiscussion": "N/A",
+    "internalVote": {
+      "constitutional": 6,
+      "unconstitutional": 0,
+      "abstain": 0
+    },
+    "references": [
+      {
+        "@type": "relevantArticles",
+        "label": "Appendix I, Section 3, TREASURY-01a",
+        "uri": "https://github.com/IntersectMBO/draft-constitution/blob/9c811a22c7244c064fdcfd89e9ef8b5f2bc2ac37/2024-12-05/cardano-constitution-1.txt#L1731-L1733"
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Cardano Atlantic Council",
+      "witness": {
+        "witnessAlgorithm": "ed25519",
+        "publicKey": "91333b40b6dbb4c47e5f30fde21b7d5b38dcad87d27c621b8b7fe61f108c1b0a",
+        "signature": "5e442cc1748a96178ede486af02f3e8ea8e5c3eb6fbbfb09fe1c5cc2fd0e4a634a1d772c8c85af32893861b0a3d25e6d669233db0694e40981a481277c7ccc00"
+      }
+    }
+  ]
+}
