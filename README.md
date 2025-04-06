@@ -4,6 +4,9 @@ Here you will find the published rationale files of
 the [Cardano Atlantic Council](https://github.com/Cardano-Atlantic-Council) for
 votes cast during our term on the Cardano Constitutional Committee.
 
+The Cardano Atlantic Council Public Key for signing and verifying rationale
+files is: `91333b40b6dbb4c47e5f30fde21b7d5b38dcad87d27c621b8b7fe61f108c1b0a`
+
 * **September 13th, 2024:** "HOSKY Hard Fork"
   [gov_action1zhuz5djmmmjg8f9s8pe6grfc98xg3szglums8cgm6qwancp4eytqqmpu0pr](gov_action1zhuz5djmmmjg8f9s8pe6grfc98xg3szglums8cgm6qwancp4eytqqmpu0pr.md) [[JSON-LD](gov_action1zhuz5djmmmjg8f9s8pe6grfc98xg3szglums8cgm6qwancp4eytqqmpu0pr.json)]
 * **October 2nd, 2024:** "Ikigai Proposal"

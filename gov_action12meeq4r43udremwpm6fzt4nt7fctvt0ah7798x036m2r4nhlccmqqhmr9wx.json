@@ -1,0 +1,94 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP136": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0136/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP136:body",
+      "@context": {
+        "references": {
+          "@id": "CIP136:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "relevantArticles": "CIP136:references"
+          }
+        },
+        "summary": "CIP136:summary",
+        "rationaleStatement": "CIP136:rationaleStatement",
+        "precedentDiscussion": "CIP136:precedentDiscussion",
+        "counterargumentDiscussion": "CIP136:counterargumentDiscussion",
+        "conclusion": "CIP136:conclusion",
+        "internalVote": {
+          "@id": "CIP136:internalVote",
+          "@context": {
+            "constitutional": "CIP136:constitutional",
+            "unconstitutional": "CIP136:unconstitutional",
+            "abstain": "CIP136:abstain",
+            "didNotVote": "CIP136:didNotVote",
+            "againstVote": "CIP136:againstVote"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "govActionId": "gov_action12meeq4r43udremwpm6fzt4nt7fctvt0ah7798x036m2r4nhlccmqqhmr9wx",
+    "summary": "Imprecise language in the proposal is causing interpretive uncertainty leading to a split consensus amongst the Cardano Atlantic Council and forcing a vote of abstain.",
+    "rationaleStatement": "Imprecise language in the proposal is causing interpretive uncertainty leading to a split consensus amongst the Cardano Atlantic Council and forcing a vote of abstain.\n\nDepending on the reading of the proposed rationale it behaves as:\n\n1\\. An informal poll\n\n> - \"the DRep vote will provide crucial input for strategic alignment and inform future budget proposals.\"\n> - \"gathering community consensus\" ... \"reflects the collective will of their constituents\"\n\n2\\. A solicitation of feedback\n\n> - \"the Product Committee will iterate upon the roadmap based upon DRep feedback\"\n> - \"while the referenced roadmap develops, DReps should consider submitting multiple votes to signal approval across versions.\"\n\n3\\. A public mandate\n\n> - \"A yes vote for this action signals support for the proposed roadmap. A no vote on this action signals a lack of support for the roadmap\"\n> - \"A well-defined roadmap, endorsed by DReps, ensures that development efforts are focused and aligned with the shared vision for Cardano.\"\n> - \"exercise their governance rights and directly influence the development trajectory\"\n\nLack of clarification that the vote is non-binding can be interpreted as this proposal seeking a decisive mandate in support or against a specific development roadmap that could later be used as justification for budgetary actions. \n\nThis brings this action directly into the purview of the Constitutional Committee pursuant to **Article VII, Section 4** of the Cardano Constitution:\n\n> In the case of \"Info\" actions that propose a Cardano Blockchain ecosystem budget, Constitutional Committee members shall record a vote on-chain that sets forth their opinion as to whether the proposed budget, if it were to be implemented in the form contained in the \"Info\" action, would violate this Constitution.\n\nRecognizing that our Council is divided on the interpretation of this action's intent, we must, per our founding charter, cast a vote of Abstain on this action.",
+    "precedentDiscussion": "- We recognize that there is little to no precedent on the format or methodology of the Info Governance Action and applaud the proposers for experimenting with community governance via this informational governance action.\n- The Atlantic Council has previously abstained in reference to Info Actions that were merely symbolic and had no on-chain impact (Ikigai Proposal). However, this proposal walks a fine line between a simple poll/temp check and a public mandate.\n- If a similar proposal were to be made in the future, it should include and/or reference a hashed version of the \"roadmap\" or other document it seeks feedback on to ensure that the document is not modified or changed after governance actors have begun to vote on it.",
+    "counterargumentDiscussion": "## Dissenting Rationale (Unconstitutional)\n\nThe governance action under review appears to be in violation of **Article III, Section 5** of the Cardano governance framework, which states:\n\n> \"The content of every on-chain governance action must be identical to the final off-chain version of the proposed action.\"\n\nThe rationale provided for this governance action includes the statement:\n\n> \"A yes vote for this action signals support for the proposed roadmap. A no vote on this action signals a lack of support for the roadmap. An abstain vote means signals neither in favor nor against. While the referenced roadmap develops, DReps should consider submitting multiple votes to signal approval across versions.\"\n\nAdditionally, the rationale states:\n\n> \"This vote is important for gathering community consensus on the vision and roadmap priorities for Cardano in 2025.\"\n\nWhile these statements provide a broad overview of the action, they fail to address a critical issue regarding the immutability of the on-chain governance action and its implications for governance transparency. According to **Article III, Section 5**, the content of every on-chain governance action must be identical to the final off-chain version of the proposed action. This requirement necessitates that any proposed governance action be fixed and not subject to modification once the voting process has begun.\n\nFurther, **Article III, Section 5** also specifies that \n\n> \"All owners of ADA shall have the right to ensure that the process for participating in, submitting and voting on on-chain governance actions is open and transparent and is protected from undue influence and manipulation.\" \n\nThis principle underlines the importance of clarity and consistency in the governance process, ensuring that voters can be confident that they are voting on a stable, transparent proposal.\n\nHowever, the roadmap referenced in this governance action is subject to change. This presents a significant issue, as the governance action's content would no longer match the original version that was presented for voting. The potential for continuous updates to the roadmap makes it impossible to ensure that the same version of the action is being voted on, which undermines the principles of transparency and immutability in the governance process.\n\nThe core issue here is that there is no way to guarantee that every DRep or Constitutional Committee (CC) member is voting on the exact version of the roadmap that was originally presented. As the roadmap evolves, multiple votes could be submitted to reflect new versions of the roadmap, but without a clear and fixed version being presented at the time of voting, this introduces ambiguity and uncertainty regarding which version is being approved.\n\nThis lack of clarity about which version of the roadmap is being voted on could compromise the legitimacy of the vote outcome, making it difficult to confidently assert whether the threshold for approval has been met. This undermines the core principles of governance transparency and accountability, and the protection of the process from undue influence and manipulation, thus rendering the governance action unconstitutional.\n\n## Dissenting Rationale (Constitutional)\n\nAfter a thorough review of the proposal and linked Roadmap, there are no commitments in this on-chain INFO action proposal that are deemed Unconstitutional and therefore, by default, it is deemed Constitutional. A YES vote to deem this INFO constitutional does not mean the roadmap itself is approved, a YES vote only indicates the INFO action proposal is correctly submitted and used in the proper context and for the correct purpose as defined by the Constitution.\n\nThe INFO action proposal is a poll, as described, that gauges DRep sentiment and includes instructions for DReps to provide feedback in the metadata, which to date, some of the DReps have understood the assignment as evidenced by feedback posted in the metadata for both YES and NO votes. As stated in the proposal “The DRep vote will provide crucial input for strategic alignment and inform future budget proposals, including the current budget conversations.” which is the correct use of an INFO according to the Constitution.\n\n**Article III, Section 4** of the Constitution states:\n\n> A special form of on-chain governance action, an \"Info\" action, exists to allow the Cardano Community to propose potential future on-chain governance actions and to allow community sentiment to be gauged without committing to any on-chain change to the Cardano Blockchain.",
+    "internalVote": {
+      "constitutional": 1,
+      "unconstitutional": 1,
+      "abstain": 4
+    },
+    "references": [
+      {
+        "@type": "relevantArticles",
+        "label": "Cardano Constitution, Article III, Section 4",
+        "uri": "https://github.com/IntersectMBO/draft-constitution/blob/9c811a22c7244c064fdcfd89e9ef8b5f2bc2ac37/2024-12-05/cardano-constitution-1.txt#L165-L175"
+      },
+      {
+        "@type": "relevantArticles",
+        "label": "Cardano Constitution, Article III, Section 5",
+        "uri": "https://github.com/IntersectMBO/draft-constitution/blob/9c811a22c7244c064fdcfd89e9ef8b5f2bc2ac37/2024-12-05/cardano-constitution-1.txt#L177-L201"
+      },
+      {
+        "@type": "relevantArticles",
+        "label": "Cardano Constitution, Article VII, Section 4",
+        "uri": "https://github.com/IntersectMBO/draft-constitution/blob/9c811a22c7244c064fdcfd89e9ef8b5f2bc2ac37/2024-12-05/cardano-constitution-1.txt#L399-L427"
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Cardano Atlantic Council",
+      "witness": {
+        "witnessAlgorithm": "ed25519",
+        "publicKey": "91333b40b6dbb4c47e5f30fde21b7d5b38dcad87d27c621b8b7fe61f108c1b0a",
+        "signature": "e20303bd0950cbf7702d38c8690caa4fd4be13a6a6a48ff75ab8c69d8a6d49fc23ed16bd4e422a8513dd48620c1e8323bcac97563b2d2b2a3afe4bcbc47de400"
+      }
+    }
+  ]
+}
