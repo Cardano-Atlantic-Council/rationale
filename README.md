@@ -22,5 +22,5 @@ votes cast during our term on the Cardano Constitutional Committee.
   [gov_action133jnaewfsq8x6v08ndd87l2yqryp63r30t2dkceacxx5cply5n7sqzlcyqf](gov_action133jnaewfsq8x6v08ndd87l2yqryp63r30t2dkceacxx5cply5n7sqzlcyqf.md) [[JSON-LD](gov_action133jnaewfsq8x6v08ndd87l2yqryp63r30t2dkceacxx5cply5n7sqzlcyqf.json)]
 * **April 4th, 2025:** "NCL #1: Set 2025 Net Change Limit of 300M ADA"
   [gov_action10ueqgzwenxr39le68n0se9peu92r7gm2846xwehh3u0ahc0qd0uqqyljxu5](gov_action10ueqgzwenxr39le68n0se9peu92r7gm2846xwehh3u0ahc0qd0uqqyljxu5.md) [[JSON-LD](gov_action10ueqgzwenxr39le68n0se9peu92r7gm2846xwehh3u0ahc0qd0uqqyljxu5.json)]
-* **April 5th, 2025:** "NCL #2: 2025 Net Change Limit"
+* **April 6th, 2025:** "NCL #2: 2025 Net Change Limit"
   [gov_action1nd3t833j7v5sz65k3tp9yyvztw60sjcjgcgjr37682s3m7frwrusqmd2k80](gov_action1nd3t833j7v5sz65k3tp9yyvztw60sjcjgcgjr37682s3m7frwrusqmd2k80.md) [[JSON-LD](gov_action1nd3t833j7v5sz65k3tp9yyvztw60sjcjgcgjr37682s3m7frwrusqmd2k80.json)]
